@@ -9,6 +9,10 @@ export class BodyComponent implements OnInit {
 
   constructor() { }
 
+  loggy() {
+    console.log("HEHE")
+  }
+
   ngOnInit(): void {
   }
 
