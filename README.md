@@ -16,7 +16,7 @@ I didn't have too many struggles, though getting ```ngModel``` to work was a bit
 
 Next time I want to dive in and rebuild my ugly Angular form to look more like the Bootstrap one I am using above in terms of layout. Then I might try doing some basic string interpolation to put a basic budget together. I also might look into removing the routing stuff I added today.
 
-#### Commands I Used / Learned
+#### CLI Commands I Used / Learned
 
 ```
 ng serve --open
@@ -29,3 +29,18 @@ ng g c [component name]
 ```
 
 Generate all the boilerplate and files for a component named [component name]
+
+### August 18, 2020
+
+#### Struggles
+
+#### Next Time
+
+#### Commands I Used / Learned
+
+```
+npm install
+```
+
+Forgot that gitignore was prefilled in this git repository
+
