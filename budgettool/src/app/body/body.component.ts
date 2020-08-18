@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Form } from './form';
+
+
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
@@ -10,8 +13,15 @@ export class BodyComponent implements OnInit {
   constructor() { }
 
   loggy() {
-    console.log("HEHE")
+    console.log(this.model.expenses)
   }
+  
+
+  model = new Form(100, 50, 100);
+
+  submitted = false;
+
+  onSubmit() { this.submitted = true; }
 
   ngOnInit(): void {
   }

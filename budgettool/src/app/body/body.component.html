@@ -16,5 +16,8 @@
                 placeholder="Enter savings goal:">
         </div>
     </form>
+    <input type="number" class="form-control" id="income" required [(ngModel)]="model.income" name="income">
+    <input type="number" class="form-control" id="expenses" required [(ngModel)]="model.expenses" name="expenses">
+    <input type="number" class="form-control" id="savingsGoal" required [(ngModel)]="model.savingsGoal" name="savingsGoals">
     <button class="btn btn-primary" (click)="loggy()">Submit</button>
 </div>
