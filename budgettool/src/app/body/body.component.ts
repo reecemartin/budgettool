@@ -12,8 +12,8 @@ export class BodyComponent implements OnInit {
 
   constructor() { }
 
-  loggy() {
-    console.log(this.model.expenses)
+  generateBudget() {
+    console.log(this.model.savingsGoal/(this.model.income - this.model.expenses))
   }
   
 
